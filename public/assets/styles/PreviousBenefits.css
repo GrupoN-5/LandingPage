@@ -1,5 +1,5 @@
 .previousBenefits{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .containerPB{
@@ -22,7 +22,6 @@
 }
 
 .boxPB h3{
-    color: #4c4c4c;
     margin: 10px 0;
     font-family: 'Poppins', sans-serif;
 }
