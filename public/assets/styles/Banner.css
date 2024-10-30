@@ -20,7 +20,8 @@ section.banner {
 
 .hello {
     font-family: 'Poppins', sans-serif;
-    color: #50C9A7
+    color: #50C9A7;
+    text-align: left;
 }
 
 .containerB h1 {
