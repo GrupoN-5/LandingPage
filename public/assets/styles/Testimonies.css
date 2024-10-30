@@ -1,73 +1,42 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-}
-
-.testimonials-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-h1 {
+.testimonies h1 {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;
     color: #222;
 }
 
-.testimonials-grid {
+.containerT{
+    width: 100%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 2rem;
+    background-color: #D9F6EE;
 }
 
-.testimonial-card {
-    background-color: #e0f5f1;
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-
-.testimonial-content {
+.boxT{
+    padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
-    height: 100%;
-}
-
-.testimonial-content p {
-    flex-grow: 1;
-    margin-bottom: 20px;
-    font-size: 1rem;
-}
-
-.testimonial-author {
-    display: flex;
     align-items: center;
-    margin-top: auto;
+    justify-content: center;
 }
 
-.profile-image {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 15px;
-    object-fit: cover;
+.boxT img{
+    width: 18rem;
+    height: auto;
 }
 
-.author-info {
-    font-style: italic;
-    color: #555;
-    font-size: 0.9rem;
+.testimoniesText {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.testimoniesSubText {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
 }
