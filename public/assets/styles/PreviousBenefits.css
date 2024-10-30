@@ -1,0 +1,35 @@
+.previousBenefits{
+    padding: 2rem;
+}
+
+.containerPB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 2rem;
+}
+
+.boxPB{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.boxPB img{
+    width: 100px;
+}
+
+.boxPB h3{
+    color: #4c4c4c;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxPB p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #817f7f;
+    text-align: left;
+}
